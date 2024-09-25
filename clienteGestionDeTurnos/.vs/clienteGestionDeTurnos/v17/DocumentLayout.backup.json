@@ -1,0 +1,321 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\tinch\\OneDrive\\Documentos\\GitHub\\ProyectoTurnos2024\\clienteGestionDeTurnos\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{1F714E22-E184-4B56-A529-A5DFD51B5A62}|MVC\\MVC.csproj|c:\\users\\tinch\\onedrive\\documentos\\github\\proyectoturnos2024\\clientegestiondeturnos\\mvc\\controllers\\generic\\genericcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1F714E22-E184-4B56-A529-A5DFD51B5A62}|MVC\\MVC.csproj|solutionrelative:mvc\\controllers\\generic\\genericcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F714E22-E184-4B56-A529-A5DFD51B5A62}|MVC\\MVC.csproj|c:\\users\\tinch\\onedrive\\documentos\\github\\proyectoturnos2024\\clientegestiondeturnos\\mvc\\controllers\\administradorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1F714E22-E184-4B56-A529-A5DFD51B5A62}|MVC\\MVC.csproj|solutionrelative:mvc\\controllers\\administradorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F714E22-E184-4B56-A529-A5DFD51B5A62}|MVC\\MVC.csproj|c:\\users\\tinch\\onedrive\\documentos\\github\\proyectoturnos2024\\clientegestiondeturnos\\mvc\\apiservice\\apiclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1F714E22-E184-4B56-A529-A5DFD51B5A62}|MVC\\MVC.csproj|solutionrelative:mvc\\apiservice\\apiclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F714E22-E184-4B56-A529-A5DFD51B5A62}|MVC\\MVC.csproj|c:\\users\\tinch\\onedrive\\documentos\\github\\proyectoturnos2024\\clientegestiondeturnos\\mvc\\controllers\\clientecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1F714E22-E184-4B56-A529-A5DFD51B5A62}|MVC\\MVC.csproj|solutionrelative:mvc\\controllers\\clientecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F714E22-E184-4B56-A529-A5DFD51B5A62}|MVC\\MVC.csproj|c:\\users\\tinch\\onedrive\\documentos\\github\\proyectoturnos2024\\clientegestiondeturnos\\mvc\\views\\cliente\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1F714E22-E184-4B56-A529-A5DFD51B5A62}|MVC\\MVC.csproj|solutionrelative:mvc\\views\\cliente\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F714E22-E184-4B56-A529-A5DFD51B5A62}|MVC\\MVC.csproj|c:\\users\\tinch\\onedrive\\documentos\\github\\proyectoturnos2024\\clientegestiondeturnos\\mvc\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1F714E22-E184-4B56-A529-A5DFD51B5A62}|MVC\\MVC.csproj|solutionrelative:mvc\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F714E22-E184-4B56-A529-A5DFD51B5A62}|MVC\\MVC.csproj|c:\\users\\tinch\\onedrive\\documentos\\github\\proyectoturnos2024\\clientegestiondeturnos\\mvc\\apiservice\\iapiclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1F714E22-E184-4B56-A529-A5DFD51B5A62}|MVC\\MVC.csproj|solutionrelative:mvc\\apiservice\\iapiclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F714E22-E184-4B56-A529-A5DFD51B5A62}|MVC\\MVC.csproj|c:\\users\\tinch\\onedrive\\documentos\\github\\proyectoturnos2024\\clientegestiondeturnos\\mvc\\views\\administrador\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1F714E22-E184-4B56-A529-A5DFD51B5A62}|MVC\\MVC.csproj|solutionrelative:mvc\\views\\administrador\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F714E22-E184-4B56-A529-A5DFD51B5A62}|MVC\\MVC.csproj|c:\\users\\tinch\\onedrive\\documentos\\github\\proyectoturnos2024\\clientegestiondeturnos\\mvc\\models\\administrador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1F714E22-E184-4B56-A529-A5DFD51B5A62}|MVC\\MVC.csproj|solutionrelative:mvc\\models\\administrador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F714E22-E184-4B56-A529-A5DFD51B5A62}|MVC\\MVC.csproj|c:\\users\\tinch\\onedrive\\documentos\\github\\proyectoturnos2024\\clientegestiondeturnos\\mvc\\models\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1F714E22-E184-4B56-A529-A5DFD51B5A62}|MVC\\MVC.csproj|solutionrelative:mvc\\models\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F714E22-E184-4B56-A529-A5DFD51B5A62}|MVC\\MVC.csproj|c:\\users\\tinch\\onedrive\\documentos\\github\\proyectoturnos2024\\clientegestiondeturnos\\mvc\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1F714E22-E184-4B56-A529-A5DFD51B5A62}|MVC\\MVC.csproj|solutionrelative:mvc\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F714E22-E184-4B56-A529-A5DFD51B5A62}|MVC\\MVC.csproj|c:\\users\\tinch\\onedrive\\documentos\\github\\proyectoturnos2024\\clientegestiondeturnos\\mvc\\views\\administrador\\editar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1F714E22-E184-4B56-A529-A5DFD51B5A62}|MVC\\MVC.csproj|solutionrelative:mvc\\views\\administrador\\editar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F714E22-E184-4B56-A529-A5DFD51B5A62}|MVC\\MVC.csproj|c:\\users\\tinch\\onedrive\\documentos\\github\\proyectoturnos2024\\clientegestiondeturnos\\mvc\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1F714E22-E184-4B56-A529-A5DFD51B5A62}|MVC\\MVC.csproj|solutionrelative:mvc\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F714E22-E184-4B56-A529-A5DFD51B5A62}|MVC\\MVC.csproj|c:\\users\\tinch\\onedrive\\documentos\\github\\proyectoturnos2024\\clientegestiondeturnos\\mvc\\views\\administrador\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1F714E22-E184-4B56-A529-A5DFD51B5A62}|MVC\\MVC.csproj|solutionrelative:mvc\\views\\administrador\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F714E22-E184-4B56-A529-A5DFD51B5A62}|MVC\\MVC.csproj|c:\\users\\tinch\\onedrive\\documentos\\github\\proyectoturnos2024\\clientegestiondeturnos\\mvc\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1F714E22-E184-4B56-A529-A5DFD51B5A62}|MVC\\MVC.csproj|solutionrelative:mvc\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F714E22-E184-4B56-A529-A5DFD51B5A62}|MVC\\MVC.csproj|c:\\users\\tinch\\onedrive\\documentos\\github\\proyectoturnos2024\\clientegestiondeturnos\\mvc\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1F714E22-E184-4B56-A529-A5DFD51B5A62}|MVC\\MVC.csproj|solutionrelative:mvc\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 144,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 389,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\tinch\\OneDrive\\Documentos\\GitHub\\ProyectoTurnos2024\\clienteGestionDeTurnos\\MVC\\Views\\Cliente\\Index.cshtml",
+              "RelativeDocumentMoniker": "MVC\\Views\\Cliente\\Index.cshtml",
+              "ToolTip": "C:\\Users\\tinch\\OneDrive\\Documentos\\GitHub\\ProyectoTurnos2024\\clienteGestionDeTurnos\\MVC\\Views\\Cliente\\Index.cshtml",
+              "RelativeToolTip": "MVC\\Views\\Cliente\\Index.cshtml",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAACIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-29T22:10:23.464Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Cliente.cs",
+              "DocumentMoniker": "C:\\Users\\tinch\\OneDrive\\Documentos\\GitHub\\ProyectoTurnos2024\\clienteGestionDeTurnos\\MVC\\Models\\Cliente.cs",
+              "RelativeDocumentMoniker": "MVC\\Models\\Cliente.cs",
+              "ToolTip": "C:\\Users\\tinch\\OneDrive\\Documentos\\GitHub\\ProyectoTurnos2024\\clienteGestionDeTurnos\\MVC\\Models\\Cliente.cs",
+              "RelativeToolTip": "MVC\\Models\\Cliente.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-29T22:04:32.196Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ClienteController.cs",
+              "DocumentMoniker": "C:\\Users\\tinch\\OneDrive\\Documentos\\GitHub\\ProyectoTurnos2024\\clienteGestionDeTurnos\\MVC\\Controllers\\ClienteController.cs",
+              "RelativeDocumentMoniker": "MVC\\Controllers\\ClienteController.cs",
+              "ToolTip": "C:\\Users\\tinch\\OneDrive\\Documentos\\GitHub\\ProyectoTurnos2024\\clienteGestionDeTurnos\\MVC\\Controllers\\ClienteController.cs",
+              "RelativeToolTip": "MVC\\Controllers\\ClienteController.cs",
+              "ViewState": "AQIAAAEAAAAAAAAAAAAhwA0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-29T21:54:00.119Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "GenericController.cs",
+              "DocumentMoniker": "C:\\Users\\tinch\\OneDrive\\Documentos\\GitHub\\ProyectoTurnos2024\\clienteGestionDeTurnos\\MVC\\Controllers\\Generic\\GenericController.cs",
+              "RelativeDocumentMoniker": "MVC\\Controllers\\Generic\\GenericController.cs",
+              "ToolTip": "C:\\Users\\tinch\\OneDrive\\Documentos\\GitHub\\ProyectoTurnos2024\\clienteGestionDeTurnos\\MVC\\Controllers\\Generic\\GenericController.cs",
+              "RelativeToolTip": "MVC\\Controllers\\Generic\\GenericController.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAqwBUAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-29T21:50:24.041Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "IApiClient.cs",
+              "DocumentMoniker": "C:\\Users\\tinch\\OneDrive\\Documentos\\GitHub\\ProyectoTurnos2024\\clienteGestionDeTurnos\\MVC\\ApiService\\IApiClient.cs",
+              "RelativeDocumentMoniker": "MVC\\ApiService\\IApiClient.cs",
+              "ToolTip": "C:\\Users\\tinch\\OneDrive\\Documentos\\GitHub\\ProyectoTurnos2024\\clienteGestionDeTurnos\\MVC\\ApiService\\IApiClient.cs",
+              "RelativeToolTip": "MVC\\ApiService\\IApiClient.cs",
+              "ViewState": "AQIAAAEAAAAAAAAAAAAAAAUAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-29T21:36:43.661Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ApiClient.cs",
+              "DocumentMoniker": "C:\\Users\\tinch\\OneDrive\\Documentos\\GitHub\\ProyectoTurnos2024\\clienteGestionDeTurnos\\MVC\\ApiService\\ApiClient.cs",
+              "RelativeDocumentMoniker": "MVC\\ApiService\\ApiClient.cs",
+              "ToolTip": "C:\\Users\\tinch\\OneDrive\\Documentos\\GitHub\\ProyectoTurnos2024\\clienteGestionDeTurnos\\MVC\\ApiService\\ApiClient.cs",
+              "RelativeToolTip": "MVC\\ApiService\\ApiClient.cs",
+              "ViewState": "AQIAABMAAAAAAAAAAAAQwA8AAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-29T21:36:28.431Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Editar.cshtml",
+              "DocumentMoniker": "C:\\Users\\tinch\\OneDrive\\Documentos\\GitHub\\ProyectoTurnos2024\\clienteGestionDeTurnos\\MVC\\Views\\Administrador\\Editar.cshtml",
+              "RelativeDocumentMoniker": "MVC\\Views\\Administrador\\Editar.cshtml",
+              "ToolTip": "C:\\Users\\tinch\\OneDrive\\Documentos\\GitHub\\ProyectoTurnos2024\\clienteGestionDeTurnos\\MVC\\Views\\Administrador\\Editar.cshtml",
+              "RelativeToolTip": "MVC\\Views\\Administrador\\Editar.cshtml",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAcAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-22T02:21:22.305Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\tinch\\OneDrive\\Documentos\\GitHub\\ProyectoTurnos2024\\clienteGestionDeTurnos\\MVC\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "MVC\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\tinch\\OneDrive\\Documentos\\GitHub\\ProyectoTurnos2024\\clienteGestionDeTurnos\\MVC\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "MVC\\Controllers\\HomeController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-16T15:30:58.04Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "ErrorViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\tinch\\OneDrive\\Documentos\\GitHub\\ProyectoTurnos2024\\clienteGestionDeTurnos\\MVC\\Models\\ErrorViewModel.cs",
+              "RelativeDocumentMoniker": "MVC\\Models\\ErrorViewModel.cs",
+              "ToolTip": "C:\\Users\\tinch\\OneDrive\\Documentos\\GitHub\\ProyectoTurnos2024\\clienteGestionDeTurnos\\MVC\\Models\\ErrorViewModel.cs",
+              "RelativeToolTip": "MVC\\Models\\ErrorViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-16T15:11:26.33Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\tinch\\OneDrive\\Documentos\\GitHub\\ProyectoTurnos2024\\clienteGestionDeTurnos\\MVC\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "MVC\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\tinch\\OneDrive\\Documentos\\GitHub\\ProyectoTurnos2024\\clienteGestionDeTurnos\\MVC\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "MVC\\Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-16T15:05:48.056Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\tinch\\OneDrive\\Documentos\\GitHub\\ProyectoTurnos2024\\clienteGestionDeTurnos\\MVC\\Views\\Administrador\\Create.cshtml",
+              "RelativeDocumentMoniker": "MVC\\Views\\Administrador\\Create.cshtml",
+              "ToolTip": "C:\\Users\\tinch\\OneDrive\\Documentos\\GitHub\\ProyectoTurnos2024\\clienteGestionDeTurnos\\MVC\\Views\\Administrador\\Create.cshtml",
+              "RelativeToolTip": "MVC\\Views\\Administrador\\Create.cshtml",
+              "ViewState": "AQIAABgAAAAAAAAAAAAAABgAAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-16T14:58:31.167Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "C:\\Users\\tinch\\OneDrive\\Documentos\\GitHub\\ProyectoTurnos2024\\clienteGestionDeTurnos\\MVC\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "MVC\\Views\\_ViewImports.cshtml",
+              "ToolTip": "C:\\Users\\tinch\\OneDrive\\Documentos\\GitHub\\ProyectoTurnos2024\\clienteGestionDeTurnos\\MVC\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "MVC\\Views\\_ViewImports.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-16T14:42:17.876Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\tinch\\OneDrive\\Documentos\\GitHub\\ProyectoTurnos2024\\clienteGestionDeTurnos\\MVC\\Views\\Administrador\\Index.cshtml",
+              "RelativeDocumentMoniker": "MVC\\Views\\Administrador\\Index.cshtml",
+              "ToolTip": "C:\\Users\\tinch\\OneDrive\\Documentos\\GitHub\\ProyectoTurnos2024\\clienteGestionDeTurnos\\MVC\\Views\\Administrador\\Index.cshtml",
+              "RelativeToolTip": "MVC\\Views\\Administrador\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-16T14:36:34.722Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AdministradorController.cs",
+              "DocumentMoniker": "C:\\Users\\tinch\\OneDrive\\Documentos\\GitHub\\ProyectoTurnos2024\\clienteGestionDeTurnos\\MVC\\Controllers\\AdministradorController.cs",
+              "RelativeDocumentMoniker": "MVC\\Controllers\\AdministradorController.cs",
+              "ToolTip": "C:\\Users\\tinch\\OneDrive\\Documentos\\GitHub\\ProyectoTurnos2024\\clienteGestionDeTurnos\\MVC\\Controllers\\AdministradorController.cs",
+              "RelativeToolTip": "MVC\\Controllers\\AdministradorController.cs",
+              "ViewState": "AQIAABQAAAAAAAAAAAAAACMAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-16T14:16:13.283Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\tinch\\OneDrive\\Documentos\\GitHub\\ProyectoTurnos2024\\clienteGestionDeTurnos\\MVC\\Program.cs",
+              "RelativeDocumentMoniker": "MVC\\Program.cs",
+              "ToolTip": "C:\\Users\\tinch\\OneDrive\\Documentos\\GitHub\\ProyectoTurnos2024\\clienteGestionDeTurnos\\MVC\\Program.cs",
+              "RelativeToolTip": "MVC\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-16T14:14:52.429Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Administrador.cs",
+              "DocumentMoniker": "C:\\Users\\tinch\\OneDrive\\Documentos\\GitHub\\ProyectoTurnos2024\\clienteGestionDeTurnos\\MVC\\Models\\Administrador.cs",
+              "RelativeDocumentMoniker": "MVC\\Models\\Administrador.cs",
+              "ToolTip": "C:\\Users\\tinch\\OneDrive\\Documentos\\GitHub\\ProyectoTurnos2024\\clienteGestionDeTurnos\\MVC\\Models\\Administrador.cs",
+              "RelativeToolTip": "MVC\\Models\\Administrador.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-16T14:10:30.739Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 11,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
