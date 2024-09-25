@@ -29,7 +29,7 @@ jobs:
 
       # Publicamos la aplicación en la carpeta ./myapp
       - name: dotnet publish
-        run: dotnet publish -c Release -o myapp
+        run: dotnet publish -c Release -o ./myapp
 
       # Verificamos que la carpeta ./myapp se haya generado correctamente
       - name: List published files
