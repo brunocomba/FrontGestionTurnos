@@ -1,7 +1,8 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\MVC"
   ],
-  "SelectedNode": "\\clienteGestionDeTurnos.sln",
+  "SelectedNode": "\\MVC\\Program.cs",
   "PreviewInSolutionExplorer": false
 }
