@@ -27,7 +27,7 @@ namespace MVC.Controllers
         {
             if (dni != 0)
             {
-                var resp = await _httpClient.GetAsync($"administradores/buscarpordni{dni}");
+                var resp = await _httpClient.GetAsync($"administradores/buscar/porDni{dni}");
 
                 if (resp.IsSuccessStatusCode)
                 {
@@ -36,7 +36,7 @@ namespace MVC.Controllers
 
 
 
-                    return View("Index", new List<Administrador>(new Administrador[] { administrador }));
+                    return View("Index", new List<Administrador>([administrador]));
                 }
 
             }
