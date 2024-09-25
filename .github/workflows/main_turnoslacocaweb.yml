@@ -1,65 +1,67 @@
 # Docs for the Azure Web Apps Deploy action: https://github.com/Azure/webapps-deploy
 # More GitHub Actions for Azure: https://github.com/Azure/actions
 
-name: Build and deploy ASP.Net Core app to Azure Web App - turnoslacocaweb
+nombre: Crear e implementar una aplicación ASP.Net Core en Azure Web App - turnoslacocaweb
 
-on:
-  push:
-    branches:
-      - main
-  workflow_dispatch:
+en:
+  empujar:
+    sucursales:
+      - principal
 
-jobs:
-  build:
-    runs-on: windows-latest
+trabajos:
+  construir:
+    se ejecuta en: windows-latest
 
-    steps:
-      - uses: actions/checkout@v4
+    pasos:
+      - usos: acciones/checkout@v4
 
-      - name: Set up .NET Core
-        uses: actions/setup-dotnet@v4
-        with:
-          dotnet-version: '8.x'
+      - nombre: Configurar .NET Core
+        usos: acciones/setup-dotnet@v4
+        con:
+          versión dotnet: '8.x'
 
-      - name: Build with dotnet
-        run: dotnet build --configuration Release
+      - nombre: Mostrar variables de entorno
+        ejecutar: env
 
-      - name: dotnet publish
-        run: dotnet publish -c Release -o ${{env.DOTNET_ROOT}}/myapp
+      - nombre: Construir con dotnet
+        ejecutar: dotnet build --configuration Release
 
-      - name: Upload artifact for deployment job
-        uses: actions/upload-artifact@v4
-        with:
-          name: .net-app
-          path: ${{env.DOTNET_ROOT}}/myapp
+      - nombre: dotnet publish
+        ejecutar: dotnet publish -c Release -o ./myapp
 
-  deploy:
-    runs-on: windows-latest
-    needs: build
-    environment:
-      name: 'Production'
-      url: ${{ steps.deploy-to-webapp.outputs.webapp-url }}
-    permissions:
-      id-token: write #This is required for requesting the JWT
+      - nombre: Cargar artefacto para el trabajo de implementación
+        usos: acciones/upload-artifact@v4
+        con:
+          nombre: .net-app
+          ruta: ./myapp
 
-    steps:
-      - name: Download artifact from build job
-        uses: actions/download-artifact@v4
-        with:
-          name: .net-app
+  desplegar:
+    se ejecuta en: windows-latest
+    necesita: construir
+    ambiente:
+      nombre: 'Producción'
+      URL: ${{ pasos.implementación-en-aplicación-web.salidas.aplicación-web-url }}
+    permisos:
+      id-token: write
+
+    pasos:
+      - nombre: Descargar artefacto del trabajo de compilación
+        usos: acciones/descargar-artefacto@v4
+        con:
+          nombre: .net-app
       
-      - name: Login to Azure
-        uses: azure/login@v2
-        with:
-          client-id: ${{ secrets.AZUREAPPSERVICE_CLIENTID_8885AFFE3F5946ACBF0A4EB4913F4E95 }}
-          tenant-id: ${{ secrets.AZUREAPPSERVICE_TENANTID_3A00DFB95D404CF29D86C89C6F5786EF }}
-          subscription-id: ${{ secrets.AZUREAPPSERVICE_SUBSCRIPTIONID_8493A1ACD86B4F27A213B0BF279432C6 }}
+      - nombre: Iniciar sesión en Azure
+        usos: azure/login@v2
+        con:
+          ID de cliente: ${{ secrets.AZUREAPPSERVICE_CLIENTID_8885AFFE3F5946ACBF0A4EB4913F4E95 }}
+          id de inquilino: ${{ secrets.AZUREAPPSERVICE_TENANTID_3A00DFB95D404CF29D86C89C6F5786EF }}
+          id de suscripción: ${{ secrets.AZUREAPPSERVICE_SUBSCRIPTIONID_8493A1ACD86B4F27A213B0BF279432C6 }}
 
-      - name: Deploy to Azure Web App
-        id: deploy-to-webapp
-        uses: azure/webapps-deploy@v3
-        with:
-          app-name: 'turnoslacocaweb'
-          slot-name: 'Production'
-          package: .
+      - nombre: Implementar en la aplicación web de Azure
+        id: implementar en aplicación web
+        usos: azure/webapps-deploy@v3
+        con:
+          nombre de la aplicación: 'turnoslacocaweb'
+          nombre-ranura: 'Producción'
+          paquete: './myapp'
           
