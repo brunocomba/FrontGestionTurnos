@@ -28,7 +28,10 @@ jobs:
 
       - name: dotnet publish
         run: dotnet publish -c Release -o ./myapp
-
+        
+      - name: List output directory contents
+        run: dir ./myapp  # Check if files are generated
+  
       - name: Upload artifact for deployment job
         uses: actions/upload-artifact@v4
         with:
