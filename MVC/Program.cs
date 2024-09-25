@@ -7,7 +7,8 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddControllersWithViews();
 
 builder.Services.AddHttpClient<IApiClient<Cliente>, ApiClient<Cliente>>();
-builder.Services.AddHttpClient<IApiClient<Administrador>, ApiClient<Administrador>>();
+//builder.Services.AddHttpClient<IApiClient<Administrador>, ApiClient<Administrador>>();
+builder.Services.AddHttpClient(); // Registra HttpClient
 
 
 var app = builder.Build();

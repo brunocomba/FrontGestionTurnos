@@ -3,28 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\brcom\\OneDrive\\Documentos\\GitHub\\FrontGestionTurnos\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\brcom\\OneDrive\\Documentos\\GitHub\\FrontGestionTurnos\\.github\\workflows\\main_turnoslacocaweb.yml||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:.github\\workflows\\main_turnoslacocaweb.yml||{8B382828-6202-11D1-8870-0000F87579D2}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1F714E22-E184-4B56-A529-A5DFD51B5A62}|MVC\\MVC.csproj|c:\\users\\brcom\\onedrive\\documentos\\github\\frontgestionturnos\\mvc\\mvc.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{1F714E22-E184-4B56-A529-A5DFD51B5A62}|MVC\\MVC.csproj|solutionrelative:mvc\\mvc.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{1F714E22-E184-4B56-A529-A5DFD51B5A62}|MVC\\MVC.csproj|C:\\Users\\brcom\\OneDrive\\Documentos\\GitHub\\FrontGestionTurnos\\mvc\\controllers\\administradorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1F714E22-E184-4B56-A529-A5DFD51B5A62}|MVC\\MVC.csproj|solutionrelative:mvc\\controllers\\administradorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1F714E22-E184-4B56-A529-A5DFD51B5A62}|MVC\\MVC.csproj|c:\\users\\brcom\\onedrive\\documentos\\github\\frontgestionturnos\\mvc\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1F714E22-E184-4B56-A529-A5DFD51B5A62}|MVC\\MVC.csproj|solutionrelative:mvc\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1F714E22-E184-4B56-A529-A5DFD51B5A62}|MVC\\MVC.csproj|C:\\Users\\brcom\\OneDrive\\Documentos\\GitHub\\FrontGestionTurnos\\mvc\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{1F714E22-E184-4B56-A529-A5DFD51B5A62}|MVC\\MVC.csproj|solutionrelative:mvc\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{1F714E22-E184-4B56-A529-A5DFD51B5A62}|MVC\\MVC.csproj|C:\\Users\\brcom\\OneDrive\\Documentos\\GitHub\\FrontGestionTurnos\\mvc\\apiservice\\apiclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1F714E22-E184-4B56-A529-A5DFD51B5A62}|MVC\\MVC.csproj|solutionrelative:mvc\\apiservice\\apiclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1F714E22-E184-4B56-A529-A5DFD51B5A62}|MVC\\MVC.csproj|C:\\Users\\brcom\\OneDrive\\Documentos\\GitHub\\FrontGestionTurnos\\mvc\\controllers\\administradorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1F714E22-E184-4B56-A529-A5DFD51B5A62}|MVC\\MVC.csproj|solutionrelative:mvc\\controllers\\administradorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1F714E22-E184-4B56-A529-A5DFD51B5A62}|MVC\\MVC.csproj|C:\\Users\\brcom\\OneDrive\\Documentos\\GitHub\\FrontGestionTurnos\\mvc\\apiservice\\iapiclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -35,8 +23,8 @@
       "RelativeMoniker": "D:0:0:{1F714E22-E184-4B56-A529-A5DFD51B5A62}|MVC\\MVC.csproj|solutionrelative:mvc\\views\\administrador\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1F714E22-E184-4B56-A529-A5DFD51B5A62}|MVC\\MVC.csproj|C:\\Users\\brcom\\OneDrive\\Documentos\\GitHub\\FrontGestionTurnos\\mvc\\models\\administrador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1F714E22-E184-4B56-A529-A5DFD51B5A62}|MVC\\MVC.csproj|solutionrelative:mvc\\models\\administrador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1F714E22-E184-4B56-A529-A5DFD51B5A62}|MVC\\MVC.csproj|c:\\users\\brcom\\onedrive\\documentos\\github\\frontgestionturnos\\mvc\\views\\administrador\\editar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1F714E22-E184-4B56-A529-A5DFD51B5A62}|MVC\\MVC.csproj|solutionrelative:mvc\\views\\administrador\\editar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1F714E22-E184-4B56-A529-A5DFD51B5A62}|MVC\\MVC.csproj|C:\\Users\\brcom\\OneDrive\\Documentos\\GitHub\\FrontGestionTurnos\\mvc\\views\\administrador\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -45,6 +33,22 @@
     {
       "AbsoluteMoniker": "D:0:0:{1F714E22-E184-4B56-A529-A5DFD51B5A62}|MVC\\MVC.csproj|C:\\Users\\brcom\\OneDrive\\Documentos\\GitHub\\FrontGestionTurnos\\mvc\\views\\cliente\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{1F714E22-E184-4B56-A529-A5DFD51B5A62}|MVC\\MVC.csproj|solutionrelative:mvc\\views\\cliente\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\brcom\\OneDrive\\Documentos\\GitHub\\FrontGestionTurnos\\.github\\workflows\\main_turnoslacocaweb.yml||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:.github\\workflows\\main_turnoslacocaweb.yml||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F714E22-E184-4B56-A529-A5DFD51B5A62}|MVC\\MVC.csproj|c:\\users\\brcom\\onedrive\\documentos\\github\\frontgestionturnos\\mvc\\mvc.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{1F714E22-E184-4B56-A529-A5DFD51B5A62}|MVC\\MVC.csproj|solutionrelative:mvc\\mvc.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F714E22-E184-4B56-A529-A5DFD51B5A62}|MVC\\MVC.csproj|C:\\Users\\brcom\\OneDrive\\Documentos\\GitHub\\FrontGestionTurnos\\mvc\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{1F714E22-E184-4B56-A529-A5DFD51B5A62}|MVC\\MVC.csproj|solutionrelative:mvc\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F714E22-E184-4B56-A529-A5DFD51B5A62}|MVC\\MVC.csproj|C:\\Users\\brcom\\OneDrive\\Documentos\\GitHub\\FrontGestionTurnos\\mvc\\models\\administrador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1F714E22-E184-4B56-A529-A5DFD51B5A62}|MVC\\MVC.csproj|solutionrelative:mvc\\models\\administrador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1F714E22-E184-4B56-A529-A5DFD51B5A62}|MVC\\MVC.csproj|C:\\Users\\brcom\\OneDrive\\Documentos\\GitHub\\FrontGestionTurnos\\mvc\\controllers\\clientecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -66,7 +70,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 389,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 15,
           "Children": [
             {
               "$type": "Bookmark",
@@ -86,7 +90,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 5,
+              "Title": "Editar.cshtml",
+              "DocumentMoniker": "C:\\Users\\brcom\\OneDrive\\Documentos\\GitHub\\FrontGestionTurnos\\MVC\\Views\\Administrador\\Editar.cshtml",
+              "RelativeDocumentMoniker": "MVC\\Views\\Administrador\\Editar.cshtml",
+              "ToolTip": "C:\\Users\\brcom\\OneDrive\\Documentos\\GitHub\\FrontGestionTurnos\\MVC\\Views\\Administrador\\Editar.cshtml",
+              "RelativeToolTip": "MVC\\Views\\Administrador\\Editar.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-25T20:17:47.598Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "main_turnoslacocaweb.yml",
               "DocumentMoniker": "C:\\Users\\brcom\\OneDrive\\Documentos\\GitHub\\FrontGestionTurnos\\.github\\workflows\\main_turnoslacocaweb.yml",
               "RelativeDocumentMoniker": ".github\\workflows\\main_turnoslacocaweb.yml",
@@ -99,7 +116,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 9,
               "Title": "MVC",
               "DocumentMoniker": "C:\\Users\\brcom\\OneDrive\\Documentos\\GitHub\\FrontGestionTurnos\\MVC\\MVC.csproj",
               "RelativeDocumentMoniker": "MVC\\MVC.csproj",
@@ -112,7 +129,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 10,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\brcom\\OneDrive\\Documentos\\GitHub\\FrontGestionTurnos\\MVC\\appsettings.json",
               "RelativeDocumentMoniker": "MVC\\appsettings.json",
@@ -124,31 +141,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 3,
               "Title": "IApiClient.cs",
               "DocumentMoniker": "C:\\Users\\brcom\\OneDrive\\Documentos\\GitHub\\FrontGestionTurnos\\MVC\\ApiService\\IApiClient.cs",
               "RelativeDocumentMoniker": "MVC\\ApiService\\IApiClient.cs",
               "ToolTip": "C:\\Users\\brcom\\OneDrive\\Documentos\\GitHub\\FrontGestionTurnos\\MVC\\ApiService\\IApiClient.cs",
               "RelativeToolTip": "MVC\\ApiService\\IApiClient.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAATAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-25T18:15:17.076Z"
+              "WhenOpened": "2024-09-25T18:15:17.076Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 4,
               "Title": "Create.cshtml",
               "DocumentMoniker": "C:\\Users\\brcom\\OneDrive\\Documentos\\GitHub\\FrontGestionTurnos\\MVC\\Views\\Administrador\\Create.cshtml",
               "RelativeDocumentMoniker": "MVC\\Views\\Administrador\\Create.cshtml",
               "ToolTip": "C:\\Users\\brcom\\OneDrive\\Documentos\\GitHub\\FrontGestionTurnos\\MVC\\Views\\Administrador\\Create.cshtml",
               "RelativeToolTip": "MVC\\Views\\Administrador\\Create.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-09-25T18:12:27.579Z"
+              "WhenOpened": "2024-09-25T18:12:27.579Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 7,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\brcom\\OneDrive\\Documentos\\GitHub\\FrontGestionTurnos\\MVC\\Views\\Cliente\\Index.cshtml",
               "RelativeDocumentMoniker": "MVC\\Views\\Cliente\\Index.cshtml",
@@ -156,23 +175,25 @@
               "RelativeToolTip": "MVC\\Views\\Cliente\\Index.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-09-25T18:11:37.498Z"
+              "WhenOpened": "2024-09-25T18:11:37.498Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 6,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\brcom\\OneDrive\\Documentos\\GitHub\\FrontGestionTurnos\\MVC\\Views\\Administrador\\Index.cshtml",
               "RelativeDocumentMoniker": "MVC\\Views\\Administrador\\Index.cshtml",
               "ToolTip": "C:\\Users\\brcom\\OneDrive\\Documentos\\GitHub\\FrontGestionTurnos\\MVC\\Views\\Administrador\\Index.cshtml",
               "RelativeToolTip": "MVC\\Views\\Administrador\\Index.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAABOAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-09-25T18:11:28.622Z"
+              "WhenOpened": "2024-09-25T18:11:28.622Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 11,
               "Title": "Administrador.cs",
               "DocumentMoniker": "C:\\Users\\brcom\\OneDrive\\Documentos\\GitHub\\FrontGestionTurnos\\MVC\\Models\\Administrador.cs",
               "RelativeDocumentMoniker": "MVC\\Models\\Administrador.cs",
@@ -184,20 +205,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\brcom\\OneDrive\\Documentos\\GitHub\\FrontGestionTurnos\\MVC\\Program.cs",
               "RelativeDocumentMoniker": "MVC\\Program.cs",
               "ToolTip": "C:\\Users\\brcom\\OneDrive\\Documentos\\GitHub\\FrontGestionTurnos\\MVC\\Program.cs",
               "RelativeToolTip": "MVC\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACIAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACMAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-25T18:10:28.818Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "HomeController.cs",
               "DocumentMoniker": "C:\\Users\\brcom\\OneDrive\\Documentos\\GitHub\\FrontGestionTurnos\\MVC\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "MVC\\Controllers\\HomeController.cs",
@@ -209,19 +230,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 0,
               "Title": "AdministradorController.cs",
               "DocumentMoniker": "C:\\Users\\brcom\\OneDrive\\Documentos\\GitHub\\FrontGestionTurnos\\MVC\\Controllers\\AdministradorController.cs",
               "RelativeDocumentMoniker": "MVC\\Controllers\\AdministradorController.cs",
               "ToolTip": "C:\\Users\\brcom\\OneDrive\\Documentos\\GitHub\\FrontGestionTurnos\\MVC\\Controllers\\AdministradorController.cs",
               "RelativeToolTip": "MVC\\Controllers\\AdministradorController.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAMAAAAAAAAA",
+              "ViewState": "AQIAABgAAAAAAAAAAAAAABsAAAAZAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-25T18:08:42.729Z"
+              "WhenOpened": "2024-09-25T18:08:42.729Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "ClienteController.cs",
               "DocumentMoniker": "C:\\Users\\brcom\\OneDrive\\Documentos\\GitHub\\FrontGestionTurnos\\MVC\\Controllers\\ClienteController.cs",
               "RelativeDocumentMoniker": "MVC\\Controllers\\ClienteController.cs",
@@ -233,7 +255,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 14,
               "Title": "Cliente.cs",
               "DocumentMoniker": "C:\\Users\\brcom\\OneDrive\\Documentos\\GitHub\\FrontGestionTurnos\\MVC\\Models\\Cliente.cs",
               "RelativeDocumentMoniker": "MVC\\Models\\Cliente.cs",
@@ -245,15 +267,16 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 2,
               "Title": "ApiClient.cs",
               "DocumentMoniker": "C:\\Users\\brcom\\OneDrive\\Documentos\\GitHub\\FrontGestionTurnos\\MVC\\ApiService\\ApiClient.cs",
               "RelativeDocumentMoniker": "MVC\\ApiService\\ApiClient.cs",
               "ToolTip": "C:\\Users\\brcom\\OneDrive\\Documentos\\GitHub\\FrontGestionTurnos\\MVC\\ApiService\\ApiClient.cs",
               "RelativeToolTip": "MVC\\ApiService\\ApiClient.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAWAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-25T18:08:20.466Z"
+              "WhenOpened": "2024-09-25T18:08:20.466Z",
+              "EditorCaption": ""
             }
           ]
         },

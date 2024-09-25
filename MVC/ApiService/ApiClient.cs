@@ -15,6 +15,11 @@ namespace MVC.ApiService
 
         }
 
+        public Task<string> CreateAsync(string endpoint, T entity)
+        {
+            throw new NotImplementedException();
+        }
+
         public Task<bool> DeleteAsync(string endpoint, int id)
         {
             throw new NotImplementedException();
@@ -55,9 +60,21 @@ namespace MVC.ApiService
             throw new NotImplementedException();
         }
 
-        Task<bool> IApiClient<T>.CreateAsync(string endpoint, T entity)
-        {
-            throw new NotImplementedException();
-        }
+        //public async Task<string> CreateAsync(string endpoint, T entity)
+        //{
+        //    var response = await _httpClient.PostAsync($"{endpoint}/{}}");
+
+        //    if (response.IsSuccessStatusCode)
+        //    {
+        //        var content = await response.Content.ReadAsStringAsync();
+
+
+        //        return JsonConvert.DeserializeObject<IEnumerable<T>>(content);
+        //    }
+
+        //    throw new HttpRequestException($"Error al obtener datos: {response.StatusCode}");
+        //}
+
+     
     }
 }
