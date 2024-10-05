@@ -12,113 +12,142 @@ namespace MVC.Controllers
     public class AdministradorController : Controller
     {
 
+        private readonly AdministradorService _administradorService;
 
-        private readonly HttpClient _httpClient;
-
-        public AdministradorController(HttpClient httpClient)
+        public AdministradorController(AdministradorService administradorService)
         {
-            _httpClient = httpClient;
-            _httpClient.BaseAddress = new Uri("https://backgestionturnos.azurewebsites.net/"); // URL base de la API
-
+            _administradorService = administradorService;
         }
-
-
-        public async Task<IActionResult> Index(int dni)
-        {
-            if (dni != 0)
-            {
-                var resp = await _httpClient.GetAsync($"administradores/buscar/porDni{dni}");
-
-                if (resp.IsSuccessStatusCode)
-                {
-                    var content = await resp.Content.ReadAsStringAsync();
-                    var administrador = JsonConvert.DeserializeObject<Administrador>(content);
-
-
-
-                    return View("Index", new List<Administrador>([administrador]));
-                }
-
-            }
-            else
-            {
-                var response = await _httpClient.GetAsync("administradores/listado");
-
-                if (response.IsSuccessStatusCode)
-                {
-                    var content = await response.Content.ReadAsStringAsync();
-                    var administradores = JsonConvert.DeserializeObject<IEnumerable<Administrador>>(content);
-
-
-                    return View("Index", administradores);
-                }
-
-            }
-
-            return View(new List<Administrador>());
-        }
-
-
 
         [HttpGet]
-        public async Task<IActionResult> Editar(int idAdmiMod)
+        public IActionResult Index()
         {
-            Administrador administrador;
-
-            try
+            if (HttpContext.Session.GetString("JWToken") != null)
             {
-
-
-                // Hace la solicitud GET a la API
-                var response = await _httpClient.GetAsync($"administradores/buscar{idAdmiMod}");
-
-                if (response.IsSuccessStatusCode)
-                {
-                    // Si la solicitud es exitosa, deserializa el contenido a un objeto Administrador
-                    var jsonResponse = await response.Content.ReadAsStringAsync();
-                    administrador = JsonConvert.DeserializeObject<Administrador>(jsonResponse);
-                }
-                else
-                {
-                    // Manejo de errores si la solicitud no es exitosa
-                    return BadRequest("Error al obtener el administrador desde la API.");
-                }
-            }
-            catch (Exception ex)
-            {
-                // Manejo de excepciones
-                return BadRequest(ex.Message);
+                return RedirectToAction("Index", "Home"); // Redirige si ya está autenticado
             }
 
-            // Retorna la vista de modificación con el modelo del administrador
-            return View(administrador);
+            return View();
         }
 
+
         [HttpPost]
-        public async Task<IActionResult> Update(Administrador adm)
+        public async Task<IActionResult> Login(string username, string password)
         {
+            var token = await _administradorService.LoginAsync(username, password);
 
-            var jsonData = JsonConvert.SerializeObject(adm);
-
-            var content = new StringContent(jsonData, Encoding.UTF8, "application/json");
-
-            var response = await _httpClient.PutAsync($"administradores/update/datosPersonales{adm.Id}", content);
-
-            if (response.IsSuccessStatusCode)
+            if (token != null)
             {
-                // Manejar la respuesta exitosa
-                var result = await response.Content.ReadAsStringAsync();
-                return Content($"Éxito: {result}");
-
-                //return RedirectToAction("Index");   // volver al index
-            }
-            else
-            {
-                var resultNeg = await response.Content.ReadAsStringAsync();
-                return Content($"Error: {resultNeg}");
+                // Guardar el token en la sesión o cookie
+                HttpContext.Session.SetString("JWToken", token);
+                ViewBag.Error = "Login exitoso!";
+                return RedirectToAction("Index", "Home");
 
 
             }
+
+            // Si falla el login
+            ViewBag.Error = "Usuario y/o passwordor invalidos";
+            return View("Index");
+        }
+
+
+        //public async Task<IActionResult> Index(int dni)
+        //{
+        //    if (dni != 0)
+        //    {
+        //        var resp = await _httpClient.GetAsync($"administradores/buscar/porDni{dni}");
+
+        //        if (resp.IsSuccessStatusCode)
+        //        {
+        //            var content = await resp.Content.ReadAsStringAsync();
+        //            var administrador = JsonConvert.DeserializeObject<Administrador>(content);
+
+
+
+        //            return View("Index", new List<Administrador>([administrador]));
+        //        }
+
+        //    }
+        //    else
+        //    {
+        //        var response = await _httpClient.GetAsync("administradores/listado");
+
+        //        if (response.IsSuccessStatusCode)
+        //        {
+        //            var content = await response.Content.ReadAsStringAsync();
+        //            var administradores = JsonConvert.DeserializeObject<IEnumerable<Administrador>>(content);
+
+
+        //            return View("Index", administradores);
+        //        }
+
+        //    }
+
+        //    return View(new List<Administrador>());
+        //}
+
+
+
+        //[HttpGet]
+        //public async Task<IActionResult> Editar(int idAdmiMod)
+        //{
+        //    Administrador administrador;
+
+        //    try
+        //    {
+
+
+        //        // Hace la solicitud GET a la API
+        //        var response = await _httpClient.GetAsync($"administradores/buscar{idAdmiMod}");
+
+        //        if (response.IsSuccessStatusCode)
+        //        {
+        //            // Si la solicitud es exitosa, deserializa el contenido a un objeto Administrador
+        //            var jsonResponse = await response.Content.ReadAsStringAsync();
+        //            administrador = JsonConvert.DeserializeObject<Administrador>(jsonResponse);
+        //        }
+        //        else
+        //        {
+        //            // Manejo de errores si la solicitud no es exitosa
+        //            return BadRequest("Error al obtener el administrador desde la API.");
+        //        }
+        //    }
+        //    catch (Exception ex)
+        //    {
+        //        // Manejo de excepciones
+        //        return BadRequest(ex.Message);
+        //    }
+
+        //    // Retorna la vista de modificación con el modelo del administrador
+        //    return View(administrador);
+        //}
+
+        //[HttpPost]
+        //public async Task<IActionResult> Update(Administrador adm)
+        //{
+
+        //    var jsonData = JsonConvert.SerializeObject(adm);
+
+        //    var content = new StringContent(jsonData, Encoding.UTF8, "application/json");
+
+        //    var response = await _httpClient.PutAsync($"administradores/update/datosPersonales{adm.Id}", content);
+
+        //    if (response.IsSuccessStatusCode)
+        //    {
+        //        // Manejar la respuesta exitosa
+        //        var result = await response.Content.ReadAsStringAsync();
+        //        return Content($"Éxito: {result}");
+
+        //        //return RedirectToAction("Index");   // volver al index
+        //    }
+        //    else
+        //    {
+        //        var resultNeg = await response.Content.ReadAsStringAsync();
+        //        return Content($"Error: {resultNeg}");
+
+
+        //    }
 
             //ModelState.AddModelError(string.Empty, "Error al crear un nuevo administrador.");
 
@@ -150,40 +179,40 @@ namespace MVC.Controllers
             //}
 
             //return View(administrador);
-        }
+        //}
 
 
-        public IActionResult Create()
-        {
-            return View();
-        }
+        //public IActionResult Create()
+        //{
+        //    return View();
+        //}
 
-        [HttpPost]
-        public async Task<IActionResult> Create(Administrador adm)
-        {
-            var jsonData = JsonConvert.SerializeObject(adm);
+        //[HttpPost]
+        //public async Task<IActionResult> Create(Administrador adm)
+        //{
+        //    var jsonData = JsonConvert.SerializeObject(adm);
 
-            var content = new StringContent(jsonData, Encoding.UTF8, "application/json");
+        //    var content = new StringContent(jsonData, Encoding.UTF8, "application/json");
 
-            var response = await _httpClient.PostAsync("https://localhost:7147/administradores/add", content);
+        //    var response = await _httpClient.PostAsync("https://localhost:7147/administradores/add", content);
 
-            if (response.IsSuccessStatusCode)
-            {
-                // Manejar la respuesta exitosa
-                var result = await response.Content.ReadAsStringAsync();
-                return Content($"Éxito: {result}");
+        //    if (response.IsSuccessStatusCode)
+        //    {
+        //        // Manejar la respuesta exitosa
+        //        var result = await response.Content.ReadAsStringAsync();
+        //        return Content($"Éxito: {result}");
 
-                //return RedirectToAction("Index");   // volver al index
-            }
-            else
-            {
-                var resultNeg = await response.Content.ReadAsStringAsync();
-                return Content($"Error: {resultNeg}");
+        //        //return RedirectToAction("Index");   // volver al index
+        //    }
+        //    else
+        //    {
+        //        var resultNeg = await response.Content.ReadAsStringAsync();
+        //        return Content($"Error: {resultNeg}");
 
-                //ModelState.AddModelError(string.Empty, "Error al crear un nuevo administrador.");
-            }
+        //        //ModelState.AddModelError(string.Empty, "Error al crear un nuevo administrador.");
+        //    }
 
-        }
+        //}
 
     }
 }
