@@ -2,8 +2,10 @@
   "ExpandedNodes": [
     "",
     "\\MVC",
-    "\\MVC\\Controllers"
+    "\\MVC\\Controllers",
+    "\\MVC\\Views",
+    "\\MVC\\Views\\Account"
   ],
-  "SelectedNode": "\\MVC\\Controllers\\AdministradorController.cs",
+  "SelectedNode": "\\MVC\\Views\\Account\\Index.cshtml",
   "PreviewInSolutionExplorer": false
 }
