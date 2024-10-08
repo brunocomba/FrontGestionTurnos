@@ -7,6 +7,8 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddControllersWithViews();
 
 builder.Services.AddScoped<AdministradorService>();
+builder.Services.AddScoped<AccountService>();
+
 //builder.Services.AddHttpClient<IApiClient<Administrador>, ApiClient<Administrador>>();
 builder.Services.AddHttpClient(); // Registra HttpClient
 
@@ -40,6 +42,6 @@ app.UseAuthorization();
 
 app.MapControllerRoute(
     name: "default",
-    pattern: "{controller=Administrador}/{action=Index}");
+    pattern: "{controller=Account}/{action=Index}");
 
 app.Run();

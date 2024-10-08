@@ -26,16 +26,16 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\brcom\OneDrive\Documentos\GitHub\FrontGestionTurnos\MVC
 build_property._RazorSourceGeneratorDebug = 
 
+[C:/Users/brcom/OneDrive/Documentos/GitHub/FrontGestionTurnos/MVC/Views/Account/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/brcom/OneDrive/Documentos/GitHub/FrontGestionTurnos/MVC/Views/Administrador/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5pc3RyYWRvclxDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/brcom/OneDrive/Documentos/GitHub/FrontGestionTurnos/MVC/Views/Administrador/Editar.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5pc3RyYWRvclxFZGl0YXIuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/brcom/OneDrive/Documentos/GitHub/FrontGestionTurnos/MVC/Views/Administrador/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5pc3RyYWRvclxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/brcom/OneDrive/Documentos/GitHub/FrontGestionTurnos/MVC/Views/Administrador/Listado.cshtml]
